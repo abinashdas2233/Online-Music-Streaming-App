@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Jersey+15+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Spicy+Rice&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Spicy+Rice&display=swap');
+body {
+  margin: 0;
+  font-family: "Arvo", serif;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/public/bgm.png);
+  background-position: center;
+  background-size: cover;
+/*background-color: rgb(95, 98, 99);*/
+  color: rgba(0, 0, 0, 0.479);
+  
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  
+}
+::placeholder{
+  font-family: "Dongle", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+}
+li{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  filter: contrast(50);
+  filter: brightness(20);
+}
+li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  
+  
+}

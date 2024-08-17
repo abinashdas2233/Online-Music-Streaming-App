@@ -1,0 +1,42 @@
+#desh{
+  margin: auto;
+  
+  width: 350px;
+  height: 150px;
+  display: grid;
+  
+ margin-top: 10%;
+}
+#desh img{
+  margin: auto;
+}
+button {
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-left: 90px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  .cont{
+    width: 40%;
+    display: grid;
+    margin-top: 45%;
+    
+    
+  }
+  #bts{
+    width: 80%;
+    height: 60%;
+
+  }
+  

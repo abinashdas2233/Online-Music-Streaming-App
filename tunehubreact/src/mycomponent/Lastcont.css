@@ -1,0 +1,141 @@
+#lastdiv{
+    background-color:rgba(233, 76, 14, 0.699);
+    width: 15%;
+    height: 100%;
+    margin-left: 15%;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    
+  
+    
+}
+#lastdiv h1{
+    font-size: large;
+    margin-top: 5px;
+    color: rgb(247, 241, 238);
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 500;
+    
+    
+}
+#ldw {
+   
+   
+    height: 30%;
+    width: 90%;
+   
+    margin: auto;
+    
+    
+    animation: kan 15s infinite; 
+}
+
+@keyframes kan {
+    0% {
+        
+        background-image: url('/public/p1.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+       
+    }
+    25%{
+        
+        background-image: url('/public/p2.jpeg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+    }
+    50% {
+        
+        background-image: url('/public/p3.jpeg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+    }
+    100% {
+        
+        background-image: url('/public/p4.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        
+    }
+}
+#profiledata{
+    
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    overflow: auto;
+   
+}
+#phead {
+    width: 60%;
+  
+    text-align: center;
+    padding: 2%;
+    font-size: medium; /* Adjust the font size */
+    color: rgb(10, 0, 0);
+    margin: auto;
+    border-style: groove;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 213);
+    
+}
+
+#pdata {
+    width: 80%;
+    height: 70%;
+   padding: 2%;
+    margin-top: 33px;
+    
+   
+   
+    
+    #phead {
+        width: 100%;
+        background-color: #4CAF50; 
+        text-align: center;
+        margin: auto;
+        font-size: 2em; 
+        color: white;
+    }
+    
+    #pdata {
+        width: 100%;
+        background-color: #f9f9f9; 
+        
+        box-sizing: border-box; 
+        font-size: 1.5em; 
+        margin-top: 50%;
+    }
+    
+    #pdata p2 {
+        display: block;
+        margin-bottom: 2%; 
+        color: #333; 
+        font-size: xx-small;
+       
+    }
+    
+    box-sizing: border-box; 
+    font-size: 1.5em; 
+}
+
+#pdata p2 {
+    display: block;
+    margin-bottom: 2%; 
+    color: #fff9f9; 
+    font-size: small;
+    
+}
+
+  
+  

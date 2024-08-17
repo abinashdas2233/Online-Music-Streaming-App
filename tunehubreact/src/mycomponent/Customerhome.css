@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Spicy+Rice&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Spicy+Rice&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.chomemain{
+    width: 1300px;
+    height: 520px;
+    
+    margin-top: 70px;
+    margin-left: 0px;
+    display: flex;
+   
+    
+  
+}
+#head{
+    height: 100%;
+    width: 50%;
+   
+    background-color: rgba(7, 7, 7, 0.336);
+   
+    border-radius: 20px;
+}
+#subdiv{
+    height: 100%;
+    width: 20%;
+ 
+    display: flex;
+   
+}
+#head1{
+    
+    width: 50%;
+  
+  
+    word-spacing: 8px;
+    margin-top: 82px;
+    margin-left: 8%;
+    padding-bottom: 5px;
+    line-height: 25px;
+  
+
+    
+   
+}
+.desg{
+    font-size: 60;
+    display: inline;
+    letter-spacing: normal;
+    color: rgb(255, 254, 250);
+   
+    font-family: "Titillium Web", sans-serif;
+}
+#par2{
+    
+    width: 80%;
+    height: 70%;
+    word-spacing: 10px;
+    margin-left: 8%;
+    
+}
+#dq{
+    font-family: "Comic Neue", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(252, 255, 250);
+  word-spacing: 6px;
+  font-size: medium;
+  
+}
+#red{
+    color: rgb(247, 0, 255);
+}
+#mot{
+    width: 40%;
+    height: 10%;
+    background-color: red;
+    margin-top: 10%;
+}
+#mbt{
+    background-color: cadetblue;
+}
+

@@ -1,0 +1,62 @@
+#mainh1{
+    width: 1300px;
+    height: 520px;
+    background-color: rgba(167, 8, 145, 0.342);
+    margin-top: 70px;
+    margin-left: 0px;
+    display: flex;
+    border-radius: 40px;
+}
+#imd{
+   
+    width: 40%;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: 2%;
+   
+}
+#tsd{
+    background-image: url('/public/nw12.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 98%;
+    height: 100%;
+    margin-left: 3%;
+    
+    
+}
+#hld{
+    width: 50%;
+    height: 435px;
+    margin-left: 0px;
+    margin-top: 46px;
+    background-image: url('/public/nw13.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    color:whitesmoke;
+}
+#hld form{
+    margin: auto;
+    height: 80%;
+    width: 70%;
+    margin-top: 10%;
+}
+#hld input[type='submit']{
+    background-color: red;
+    margin-left: 29%;
+    width: 100px;
+    height: 25px;
+    margin-top: 8%;
+    color: whitesmoke;
+    border-radius: 15px;
+
+}
+#hld input[type='submit'] :hover{
+    cursor: pointer;
+    background-color: black;
+}
+

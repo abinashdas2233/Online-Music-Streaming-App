@@ -1,0 +1,50 @@
+.chome{
+   
+  width: 1300px;
+  height: 520px;
+    
+    margin-top: 75px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#middiv{
+    width: 70%;
+    height: 100%;
+    background-image: url('/public/nw7.webp');
+    overflow: auto;
+    color: whitesmoke;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#middiv::before{
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+  z-index: 1;
+}
+#middiv table{
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgba(68, 10, 10, 0.3); /* White with 30% opacity */
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  border-radius: 30px;
+  
+  
+}
+#middiv th,td{
+   
+   
+  padding: 8px;
+}
+
+#maindiv table td{
+    
+    border: none;
+}
+.ims{
+    width: 60%;
+    height: 40%;
+}
+  
