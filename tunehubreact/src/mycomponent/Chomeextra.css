@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Spicy+Rice&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dongle&family=Jersey+15+Charted&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+RO:wght@100..400&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Spicy+Rice&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+#extramain{
+    width: 1300px;
+    height: 520px;
+   
+    margin-top: 70px;
+    margin-left: 0px;
+    display: flex;
+}
+.se{
+    height: 100%;
+    width: 50%;
+}
+
+#se3{
+  
+    display: flex;
+    align-items: center;
+    
+   
+}
+#se1 img{
+    height: 100%;
+
+   margin-left: 10%;
+
+}
+#letterd{
+    background-color: red;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 2px solid black;
+    
+    font-family: "Titillium Web", sans-serif;
+    color: aliceblue;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    
+   
+}
+#siimg{
+    height: 34%;
+    width: 44%;
+}
+

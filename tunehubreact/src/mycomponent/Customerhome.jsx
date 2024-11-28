@@ -2,6 +2,9 @@ import React from 'react'
 import Customernavbar from './Customernavbar'
 import './Customerhome.css'
 import Lastcont from './Lastcont'
+import Chomeextra from './Chomeextra'
+
+import Foot from './Foot'
 
 
 function Customerhome(props) {
@@ -31,6 +34,8 @@ function Customerhome(props) {
     <Lastcont vdata={props.idata}/>
    
    </div>
+   <Chomeextra/>
+   <Foot/>
     </>
   )
 }

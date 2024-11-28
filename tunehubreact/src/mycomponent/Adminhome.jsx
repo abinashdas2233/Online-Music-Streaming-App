@@ -1,7 +1,9 @@
 import React from 'react'
 import Adminnavbar from './Adminnavbar'
+import Chomeextra from './Chomeextra'
 
 import Lastcont from './Lastcont'
+import Foot from './Foot'
 function Adminhome(props) {
   return (
     <>
@@ -27,8 +29,10 @@ function Adminhome(props) {
 
     <Lastcont vdata={props.idata}/>
    
+   
    </div>
-      
+   <Chomeextra/>
+   <Foot/>
       </>
   )
 }
