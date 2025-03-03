@@ -13,6 +13,7 @@ import Customerviewsongs from './mycomponent/Customerviewsongs';
 import Customercomplaint from './mycomponent/Customercomplaint';
 import Admincomplaint from './mycomponent/Admincomplaint';
 import Password from './mycomponent/Password';
+import CustomerSearchsongs from './mycomponent/CustomerSearchsongs';
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
         <Route path='/fcc' element={<Admincomplaint />} />
         <Route path='/cvs' element={<Customerviewsongs />} />
         <Route path='/Password' element={<Password/>}/>
-        
+        <Route path='/ss' element={<CustomerSearchsongs/>}    />    
       </Routes>
     </div>
   );

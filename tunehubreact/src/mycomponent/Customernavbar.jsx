@@ -10,8 +10,8 @@ function Customernavbar() {
       <div className="ulcv">
         <ul>
         <Link to='/ds'> <li>Home</li></Link>
-        <Link to='/ds'><li>Profile</li></Link>
-        <Link to='/cvs'><li>View songs</li></Link>
+        <Link to='/ss'><li>Search Songs</li></Link>
+        <Link to='/cvs'><li>Songs</li></Link>
         <Link to='/'> <li>Logout</li></Link>
         </ul>
         </div>

@@ -1,0 +1,38 @@
+#searchmaind{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/heros.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#subsearch{
+    width: 90%;
+    height: 88%;
+    background-color: rgba(19, 18, 18, 0.582);
+    margin-top: 3%;
+   
+}
+#searchbar {
+  
+ 
+  max-width: 800px;
+  padding: 10px 15px;
+ 
+  border-radius: 5px;
+  font-size: 16px;
+ margin-top: 4%;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin: auto;
+}
+
+#searchbar:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
